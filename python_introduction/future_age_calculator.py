@@ -1,4 +1,13 @@
-current_age = int(input(age:)
-input = 30
+# future_age_calculator.py
+
+# Ask the user for their current age
+current_age = int(input("How old are you? "))
+
+# Show what the user entered
+print(f"You entered: {current_age}")
+
+# Calculate age in 2050 (27 years from 2023)
 age_in_2050 = current_age + 27
+
+# Print the result
 print(f"In 2050, you will be {age_in_2050} years old")
